@@ -20,32 +20,6 @@ export const Home = () => {
           </div>
         </div>
       </section>
-
-      <section className="bg-white">
-        <div className="max-w-7xl mx-auto px-6 py-14 grid grid-cols-1 md:grid-cols-3 gap-6">
-          <div className="p-6 border rounded hover:shadow-sm transition">
-            <div className="text-3xl">🔐</div>
-            <h3 className="text-xl font-semibold mt-2">Secure Auth</h3>
-            <p className="mt-2 text-gray-600">JWT with HttpOnly cookies keeps sessions protected.</p>
-          </div>
-          <div className="p-6 border rounded hover:shadow-sm transition">
-            <div className="text-3xl">⚙️</div>
-            <h3 className="text-xl font-semibold mt-2">Atomic Hiring</h3>
-            <p className="mt-2 text-gray-600">MongoDB transactions ensure only one freelancer is hired.</p>
-          </div>
-          <div className="p-6 border rounded hover:shadow-sm transition">
-            <div className="text-3xl">⚡</div>
-            <h3 className="text-xl font-semibold mt-2">Real-time Ready</h3>
-            <p className="mt-2 text-gray-600">Socket.io can notify hires instantly on dashboards.</p>
-          </div>
-        </div>
-      </section>
-
-      <section className="max-w-7xl mx-auto px-6 py-12 text-center">
-        <p className="text-gray-500">
-          Built with React + Vite, Tailwind CSS, Express.js, and MongoDB.
-        </p>
-      </section>
     </div>
   );
 }

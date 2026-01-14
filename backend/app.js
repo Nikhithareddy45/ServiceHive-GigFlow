@@ -7,9 +7,10 @@ import gigRoutes from "./routes/gigRoutes.js";
 
 
 const app = express();
+const FRONTEND_ORIGIN = process.env.FRONTEND_ORIGIN || "http://localhost:5173";
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: FRONTEND_ORIGIN,
     credentials: true
   })
 );
